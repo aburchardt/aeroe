@@ -2,3 +2,20 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Opgave 2"
 theme = "aeroe"
+publishDir = "docs"
+
+[[menu.main]]
+name               	= "Hjem"
+weight             	= -201
+identifier         	= "hjem"
+url                	= "/"
+
+[[menu.main]]
+name               	= "Dokumentation"
+weight             	= -101
+identifier         	= "blog"
+url                	= "/dokumentation/"
+
+[params]
+description = "test test config"
+recent_posts_number = 2

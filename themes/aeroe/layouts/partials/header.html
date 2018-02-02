@@ -1,9 +1,20 @@
 <html>
 <link rel="stylesheet" href="{{.Site.BaseURL}}css/normalize.css">
+<link rel="stylesheet" href="{{.Site.BaseURL}}css/flexboxgrid.css">
 <link rel="stylesheet" href="{{.Site.BaseURL}}css/style.css">
 
 <head>
-
 </head>
 
 <body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  {{ range .Site.Menus.main }}
+
+    <a href="{{.URL}}">{{ .Name }}</a>
+
+  {{ end }}
+
+
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
