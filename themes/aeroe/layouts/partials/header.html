@@ -10,11 +10,9 @@
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   {{ range .Site.Menus.main }}
-
     <a href="{{.URL}}">{{ .Name }}</a>
-
   {{ end }}
-
-
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+<div class="col-lg-3">{{ .Title }}</div>
+<div class="col-lg-3">{{ .Content }}</div>

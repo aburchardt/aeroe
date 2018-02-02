@@ -4,6 +4,9 @@ title = "Opgave 2"
 theme = "aeroe"
 publishDir = "docs"
 
+[params]
+featured_image = "/img/guldglenn.jpg"
+
 [[menu.main]]
 name               	= "Hjem"
 weight             	= -201
