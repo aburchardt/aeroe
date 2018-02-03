@@ -1,5 +1,5 @@
 ---
-title: "Forside"
+title: "AEROE"
 date: 2018-02-01T10:49:18+01:00
 featured_image: "/img/guldglenn.jpg"
 description: "test test test _index"
