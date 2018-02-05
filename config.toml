@@ -13,8 +13,14 @@ url                	= "/"
 [[menu.main]]
 name               	= "Dokumentation"
 weight             	= -101
-identifier         	= "blog"
+identifier         	= "dokumentation"
 url                	= "/dokumentation/"
+
+[[menu.main]]
+name               	= "Om"
+weight             	= -100
+identifier         	= "om"
+url                	= "/om/"
 
 [params]
 description = "test test config"

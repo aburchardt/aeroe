@@ -1,8 +1,9 @@
 {{ partial "header.html" . }}
-<h1>{{.Title}}</h1>
-<section>{{.Content}}</section>
 {{range .Pages}}
-<h3>{{.Title}}</h3>
-<div>{{.Content}}</div>
-<div>{{.Date}}</div>
-{{end}} {{ partial "footer.html" . }}
+<a href="{{.URL}}"><h3>{{.Title}}</h3></a>
+{{ if .Params.om }} <h4>{{ .Params.om }}</h4> {{end}}
+
+
+<div>{{ .Date.Format "2006-01-02" }}</div>
+{{end}}
+{{ partial "footer.html" . }}
