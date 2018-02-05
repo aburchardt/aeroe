@@ -122,6 +122,11 @@ body {
   font-size: 10vw; }
 
 /* SPLASH SLUT */
+/* DOKUMENTATION */
+.content {
+  margin-top: 40px; }
+
+/* DOKUMENTATION SLUT */
 /* BURGER MENU */
 .sidenav {
   height: 28%;
@@ -155,7 +160,8 @@ body {
   margin-left: 50px; }
 
 .burger {
-  position: absolute; }
+  position: absolute;
+  margin-left: 14px; }
 
 /* BURGER MENU SLUT */
 /* MENU */
