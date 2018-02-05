@@ -1,9 +1,15 @@
 {{ partial "header.html" . }}
+
 {{range .Pages}}
-<a href="{{.URL}}"><h3>{{.Title}}</h3></a>
-{{ if .Params.om }} <h4>{{ .Params.om }}</h4> {{end}}
-
-
-<div>{{ .Date.Format "2006-01-02" }}</div>
+<div class="list_title">
+  <a href="{{.URL}}"><h3>{{.Title}}</h3></a>
+</div>
+<div class="list_om">
+  {{ if .Params.om }}<h4>{{ .Params.om }}</h4>{{end}}
+</div>
+<div class="list_date">
+  <i>{{ .Date.Format "2006-01-02" }}</i>
+</div>
 {{end}}
+
 {{ partial "footer.html" . }}
