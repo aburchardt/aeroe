@@ -1,15 +1,21 @@
 {{ partial "header.html" . }}
 
-{{range .Pages}}
-<div class="list_title">
-  <a href="{{.URL}}"><h3>{{.Title}}</h3></a>
+<div class="row center-xs">
+  <div class="col-xs-12 col-md-6">
+    <div class="box">
+      {{range .Pages}}
+      <div class="list_title">
+        <a href="{{.URL}}"><h3>{{.Title}}</h3></a>
+      </div>
+      <div class="list_om">
+        {{ if .Params.om }}<h4>{{ .Params.om }}</h4>{{end}}
+      </div>
+      <div class="list_date">
+        <i>{{ .Date.Format "2006-01-02" }}</i>
+      </div>
+      {{end}}
+    </div>
+  </div>
 </div>
-<div class="list_om">
-  {{ if .Params.om }}<h4>{{ .Params.om }}</h4>{{end}}
-</div>
-<div class="list_date">
-  <i>{{ .Date.Format "2006-01-02" }}</i>
-</div>
-{{end}}
 
 {{ partial "footer.html" . }}

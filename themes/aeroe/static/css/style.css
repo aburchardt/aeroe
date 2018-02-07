@@ -127,9 +127,22 @@ body {
   font-size: 10vw; }
 
 /* SPLASH SLUT */
+/* CONTENT */
+.content_bg {
+  background: red; }
+
+.box p {
+  text-align: left;
+  margin: 10px; }
+
+.box h2 {
+  margin: 5px; }
+
+/* CONTENT SLUT */
 /* DOKUMENTATION */
-.content {
-  margin-top: 40px; }
+.list_om, .list_date, .list_title {
+  text-align: left;
+  margin: 10px; }
 
 /* DOKUMENTATION SLUT */
 /* BURGER MENU */
