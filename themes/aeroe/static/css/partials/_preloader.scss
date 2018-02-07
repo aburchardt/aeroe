@@ -4,6 +4,8 @@
     left: 0;
     width: 100%;
     height: 100%;
+    -webkit-animation: fade 2s linear forwards;
+    animation: fade 5s linear forwards;
 }
 #loader {
     display: block;
@@ -68,4 +70,23 @@
         -ms-transform: rotate(360deg);
         transform: rotate(360deg);
     }
+}
+
+@-webkit-keyframes fade {
+  0% {
+    display: none;
+  }
+  100% {
+    display: none;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1000;
+  }
 }
