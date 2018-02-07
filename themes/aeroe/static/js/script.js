@@ -6,6 +6,12 @@ function closeNav() {
     document.getElementById("mySidenav").style.left = "-150px";
 }
 
+function preloader() {
+  document.getElementById("preloader").style.display = "none";
+}
+
+setTimeout(function() { preloader(); }, 3000);
+
 /*Ajax contact form*/
 $("#kontaktmig").submit(function(event) {
            // cancels the form submission
