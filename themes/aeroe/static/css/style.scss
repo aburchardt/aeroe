@@ -29,7 +29,7 @@ body {
 /* BURGER MENU */
 
 .sidenav {
-    height: 28%;
+    height: 17%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -38,17 +38,21 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    // padding-top: 60px;
     border-radius: 0 0px 10px 0;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 10px;
     text-decoration: none;
-    font-size: 6vw;
+    font-size: 4vw;
     color: #ffffff;
     display: block;
     transition: 0.3s;
+}
+
+.sidenavn a:first-child {
+  padding-top: 20px;
 }
 
 .sidenav a:hover {
@@ -57,15 +61,16 @@ body {
 
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
+    top: -12px;
+    right: 5px;
     font-size: 36px;
     margin-left: 50px;
 }
 
 .burger {
   position: absolute;
-  margin-left: 14px;
+  margin-left: 5px;
+  top: 0;
 }
 
 /* BURGER MENU SLUT */

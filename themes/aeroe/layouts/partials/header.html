@@ -7,9 +7,9 @@
 </head>
 
 <body>
-  <div id="preloader">
+  <!-- <div id="preloader">
     <div id="loader"></div>
-  </div>
+  </div> -->
   <div class="splash">
     <div class="row center-xs">
       <div class="col-xs-10">
@@ -46,8 +46,17 @@
     {{ .Title }}
   </h1>
 </div> -->
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-  <div class="content">
-    <p>{{ .Content }}</p>
+<div class="row center-xs">
+  <div class="col-xs-12 col-md-8">
+    <div class="box">
+        <h2>{{.Params.description}}</h2>
+    </div>
+  </div>
+</div>
+<div class="row center-xs">
+  <div class="col-xs-12 col-md-6">
+    <div class="box">
+        <p>{{.Content}}</p>
+    </div>
   </div>
 </div>
