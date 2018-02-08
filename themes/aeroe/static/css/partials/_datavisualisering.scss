@@ -1,7 +1,16 @@
 .diagram_container{
-   margin-top: 40vw;
-   transform: rotate(90deg);
+   // transform: rotate(90deg);
+   margin: auto;
 }
+
+.data_container {
+  width: 100%;
+}
+
+.diagram_svg {
+  padding: 10px;
+}
+
 .column_and_name_container p{
   margin: 0;
   padding:0;
@@ -9,6 +18,6 @@
   font-size: 1vw;
 }
 .column_and_name_container svg{
-  display: inline-block;
-  transform: rotate(180deg);
+  // display: inline-block;
+  // transform: rotate(180deg);
 }

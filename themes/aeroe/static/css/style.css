@@ -95,7 +95,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: lightgrey;
   padding: 20px;
   max-width: 800px;
   margin: 10px auto; }
@@ -107,20 +107,27 @@ input[type=submit]:hover {
   background-color: red;
   padding: 1em; }
 
+.kontakt_p {
+  margin-left: 20px; }
+
+.kontakt_h1 {
+  margin-left: 3px; }
+
 /*# sourceMappingURL=style.css.map */
 .diagram_container {
-  margin-top: 40vw;
-  transform: rotate(90deg); }
+  margin: auto; }
+
+.data_container {
+  width: 100%; }
+
+.diagram_svg {
+  padding: 10px; }
 
 .column_and_name_container p {
   margin: 0;
   padding: 0;
   display: inline-block;
   font-size: 1vw; }
-
-.column_and_name_container svg {
-  display: inline-block;
-  transform: rotate(180deg); }
 
 /* IMPORT PARTIALS SLUT */
 body {
@@ -132,6 +139,9 @@ a {
 
 a:hover {
   color: white; }
+
+h2 {
+  padding: 15px; }
 
 /* TYPOGRAFI SLUT */
 /* SPLASH */
@@ -146,7 +156,7 @@ a:hover {
 
 /* SPLASH SLUT */
 /* CONTENT */
-.col-md-6 {
+.col-md-8 {
   background-color: lightgrey; }
 
 .box p {
@@ -163,6 +173,11 @@ a:hover {
   margin: 10px; }
 
 /* DOKUMENTATION SLUT */
+/* FOOTER */
+.footer_boks {
+  background-color: lightgrey; }
+
+/* FOOTER SLUT */
 /* BURGER MENU */
 .sidenav {
   height: 23%;
