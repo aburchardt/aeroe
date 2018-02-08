@@ -4,6 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: #00000099;
 }
 #loader {
     display: block;
@@ -68,13 +69,4 @@
         -ms-transform: rotate(360deg);
         transform: rotate(360deg);
     }
-}
-
-@-webkit-keyframes fade {
-  0% {
-    display: none;
-  }
-  100% {
-    display: none;
-  }
 }
