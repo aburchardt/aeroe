@@ -98,7 +98,7 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
   max-width: 800px;
-  margin: 0 auto; }
+  margin: 10px auto; }
 
 .hidden {
   display: none; }
@@ -109,7 +109,7 @@ input[type=submit]:hover {
 
 /*# sourceMappingURL=style.css.map */
 .diagram_container {
-  margin-top: 20vw;
+  margin-top: 10vw;
   transform: rotate(90deg); }
 
 .column_and_name_container p {
@@ -126,6 +126,14 @@ input[type=submit]:hover {
 body {
   font-family: "Lato", sans-serif; }
 
+/* TYPOGRAFI */
+a {
+  color: black; }
+
+a:hover {
+  color: white; }
+
+/* TYPOGRAFI SLUT */
 /* SPLASH */
 .splash {
   background-color: grey;
@@ -139,7 +147,7 @@ body {
 /* SPLASH SLUT */
 /* CONTENT */
 .col-md-6 {
-  background-color: blue; }
+  background-color: lightgrey; }
 
 .box p {
   text-align: left;
@@ -157,13 +165,13 @@ body {
 /* DOKUMENTATION SLUT */
 /* BURGER MENU */
 .sidenav {
-  height: 17%;
-  width: 150px;
+  height: 23%;
+  width: 170px;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: -150px;
-  background-color: rgba(0, 0, 0, 0.8);
+  left: -170px;
+  background-color: darkgrey;
   overflow-x: hidden;
   transition: 0.5s;
   border-radius: 0 0px 10px 0; }
@@ -172,7 +180,7 @@ body {
   padding: 10px;
   text-decoration: none;
   font-size: 4vw;
-  color: #ffffff;
+  color: black;
   display: block;
   transition: 0.3s; }
 
@@ -180,7 +188,7 @@ body {
   padding-top: 20px; }
 
 .sidenav a:hover {
-  color: grey; }
+  color: white; }
 
 .sidenav .closebtn {
   position: absolute;
@@ -190,9 +198,12 @@ body {
   margin-left: 50px; }
 
 .burger {
-  position: absolute;
+  position: fixed;
   margin-left: 5px;
   top: 0; }
+
+.burger:hover {
+  color: white; }
 
 /* BURGER MENU SLUT */
 /* MENU */
@@ -202,7 +213,7 @@ body {
   padding: 10px; }
 
 .menu a {
-  padding-left: 35px;
+  padding-left: 15px;
   text-transform: uppercase;
   text-decoration: none;
   color: black; }

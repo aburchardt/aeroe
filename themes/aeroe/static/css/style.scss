@@ -8,6 +8,16 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+/* TYPOGRAFI */
+a {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+/* TYPOGRAFI SLUT */
+
 /* SPLASH */
 .splash {
   background-color: grey;
@@ -23,7 +33,7 @@ body {
 
 /* CONTENT */
 .col-md-6 {
-  background-color: blue;
+  background-color: lightgrey;
 }
 
 .box p {
@@ -48,13 +58,13 @@ body {
 /* BURGER MENU */
 
 .sidenav {
-    height: 17%;
-    width: 150px;
+    height: 23%;
+    width: 170px;
     position: fixed;
     z-index: 1;
     top: 0;
-    left: -150px;;
-    background-color: rgba(0, 0, 0, 0.8);
+    left: -170px;;
+    background-color: darkgrey;
     overflow-x: hidden;
     transition: 0.5s;
     // padding-top: 60px;
@@ -65,7 +75,7 @@ body {
     padding: 10px;
     text-decoration: none;
     font-size: 4vw;
-    color: #ffffff;
+    color: black;
     display: block;
     transition: 0.3s;
 }
@@ -75,7 +85,7 @@ body {
 }
 
 .sidenav a:hover {
-    color: grey;
+    color: white;
 }
 
 .sidenav .closebtn {
@@ -87,9 +97,13 @@ body {
 }
 
 .burger {
-  position: absolute;
+  position: fixed;
   margin-left: 5px;
   top: 0;
+}
+
+.burger:hover {
+  color: white;
 }
 
 /* BURGER MENU SLUT */
@@ -103,7 +117,7 @@ body {
 }
 
 .menu a {
-  padding-left: 35px;
+  padding-left: 15px;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
