@@ -12,7 +12,7 @@ url                	= "/"
 
 [[menu.main]]
 name               	= "Dokumentation"
-weight             	= -101
+weight             	= -103
 identifier         	= "dokumentation"
 url                	= "/dokumentation/"
 
@@ -21,6 +21,12 @@ name               	= "Om"
 weight             	= -100
 identifier         	= "om"
 url                	= "/om/"
+
+[[menu.main]]
+name               	= "Datavisualisering"
+weight             	= -102
+identifier         	= "datavisualisering"
+url                	= "/datavisualisering/"
 
 [params]
 description = "test test config"

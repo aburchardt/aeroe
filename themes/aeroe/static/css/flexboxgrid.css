@@ -198,6 +198,7 @@
   -webkit-box-pack: center;
   justify-content: center;
   text-align: center;
+  margin: 0;
 }
 
 .end-xs {

@@ -51,7 +51,7 @@
   </div>
   <div class="col-xs-12 col-md-6">
     <div class="box">
-        <p>{{.Content}}</p>
+      {{ if .Content }}<p>{{ .Content }}</p>{{end}}
     </div>
   </div>
 </div>

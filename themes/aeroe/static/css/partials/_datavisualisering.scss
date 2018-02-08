@@ -1,0 +1,14 @@
+.diagram_container{
+   margin-top: 20vw;
+   transform: rotate(90deg);
+}
+.column_and_name_container p{
+  margin: 0;
+  padding:0;
+  display: inline-block;
+  font-size: 1vw;
+}
+.column_and_name_container svg{
+  display: inline-block;
+  transform: rotate(180deg);
+}
