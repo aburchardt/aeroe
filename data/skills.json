@@ -1,37 +1,37 @@
 [
   {
     "id":"html",
-    "navn":"HTML",
+    "navn":"HTML:",
     "skill":5
   },
   {
     "id":"css",
-    "navn":"CSS",
+    "navn":"CSS:",
     "skill":5
   },
   {
     "id":"js",
-    "navn":"JavaScript",
+    "navn":"JavaScript:",
     "skill":4
   },
   {
     "id":"ps",
-    "navn":"Photoshop",
+    "navn":"Photoshop:",
     "skill":3
   },
   {
     "id":"illu",
-    "navn":"Illustrator",
+    "navn":"Illustrator:",
     "skill":3
   },
   {
     "id":"id",
-    "navn":"InDesign",
+    "navn":"InDesign:",
     "skill":3
   },
   {
     "id":"pp",
-    "navn":"Premiere Pro",
+    "navn":"Premiere Pro:",
     "skill":4
   }
 ]

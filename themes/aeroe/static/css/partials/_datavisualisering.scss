@@ -1,5 +1,4 @@
 .diagram_container{
-   // transform: rotate(90deg);
    width: 100%;
 }
 
@@ -10,7 +9,7 @@
 
 .column_and_name_container {
   margin: auto;
-  width: 20vw;
+  width: 35vw;
 }
 
 .column_and_name_container p{
@@ -18,7 +17,18 @@
   padding:0;
   display: inline-block;
 }
-.column_and_name_container svg{
-  // display: inline-block;
-  // transform: rotate(180deg);
+.column_and_name_container svg:last-child {
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 770px) {
+  .column_and_name_container {
+    width: 18vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .column_and_name_container {
+    width: 10vw;
+  }
 }
