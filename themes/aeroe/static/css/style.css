@@ -109,7 +109,7 @@ input[type=submit]:hover {
 
 /*# sourceMappingURL=style.css.map */
 .diagram_container {
-  margin-top: 10vw;
+  margin-top: 40vw;
   transform: rotate(90deg); }
 
 .column_and_name_container p {
@@ -213,7 +213,7 @@ a:hover {
   padding: 10px; }
 
 .menu a {
-  padding-left: 15px;
+  padding-left: 25px;
   text-transform: uppercase;
   text-decoration: none;
   color: black; }

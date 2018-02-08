@@ -1,0 +1,37 @@
+[
+  {
+    "id":"html",
+    "navn":"HTML",
+    "skill":5
+  },
+  {
+    "id":"css",
+    "navn":"CSS",
+    "skill":5
+  },
+  {
+    "id":"js",
+    "navn":"JavaScript",
+    "skill":4
+  },
+  {
+    "id":"ps",
+    "navn":"Photoshop",
+    "skill":3
+  },
+  {
+    "id":"illu",
+    "navn":"Illustrator",
+    "skill":3
+  },
+  {
+    "id":"id",
+    "navn":"InDesign",
+    "skill":3
+  },
+  {
+    "id":"pp",
+    "navn":"Premiere Pro",
+    "skill":4
+  }
+]

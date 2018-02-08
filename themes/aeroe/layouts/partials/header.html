@@ -46,7 +46,7 @@
 <div class="row center-xs">
   <div class="col-xs-12 col-md-8">
     <div class="box">
-        <h2>{{.Params.description}}</h2>
+        {{ if .Params.description}}<h2>{{.Params.description}}</h2>{{end}}
     </div>
   </div>
   <div class="col-xs-12 col-md-6">
