@@ -115,19 +115,19 @@ input[type=submit]:hover {
 
 /*# sourceMappingURL=style.css.map */
 .diagram_container {
-  margin: auto; }
-
-.data_container {
   width: 100%; }
 
 .diagram_svg {
-  padding: 10px; }
+  padding: 10px 0px 10px 0px; }
+
+.column_and_name_container {
+  margin: auto;
+  width: 20vw; }
 
 .column_and_name_container p {
   margin: 0;
   padding: 0;
-  display: inline-block;
-  font-size: 1vw; }
+  display: inline-block; }
 
 /* IMPORT PARTIALS SLUT */
 body {

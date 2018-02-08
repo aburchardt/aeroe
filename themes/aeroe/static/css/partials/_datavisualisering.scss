@@ -1,21 +1,22 @@
 .diagram_container{
    // transform: rotate(90deg);
-   margin: auto;
+   width: 100%;
 }
 
-.data_container {
-  width: 100%;
-}
 
 .diagram_svg {
-  padding: 10px;
+  padding: 10px 0px 10px 0px;
+}
+
+.column_and_name_container {
+  margin: auto;
+  width: 20vw;
 }
 
 .column_and_name_container p{
   margin: 0;
   padding:0;
   display: inline-block;
-  font-size: 1vw;
 }
 .column_and_name_container svg{
   // display: inline-block;
