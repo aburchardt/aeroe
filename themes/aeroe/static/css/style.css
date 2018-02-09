@@ -220,6 +220,15 @@ p {
   margin: 10px; }
 
 /* DOKUMENTATION SLUT */
+/* DOKUMENTATION TYPOGRAFI */
+.typografi h1, h2, h3, h4, p, i {
+  padding: 0px;
+  margin: 10px 0 10px 0; }
+
+.typografi p {
+  text-align: center; }
+
+/* DOKUMENTATION TYPOGRAFI SLUT */
 /* FOOTER */
 .footer_boks {
   background-color: lightgrey; }
