@@ -84,7 +84,7 @@ p {
 }
 
 .box h2 {
-  margin: 5px;
+  margin: 10px;
 }
 
 /* CONTENT SLUT */
@@ -93,6 +93,14 @@ p {
 .list_om, .list_date, .list_title {
   text-align: left;
   margin: 10px;
+}
+
+.list_title a {
+  color: white;
+}
+
+.list_title a:hover {
+  color: #FF4CFF;
 }
 
 /* DOKUMENTATION SLUT */
