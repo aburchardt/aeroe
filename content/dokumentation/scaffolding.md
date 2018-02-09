@@ -1,7 +1,7 @@
 ---
 title: "Scaffolding"
 date: 2018-02-01T10:49:53+01:00
-draft: true
+draft: false
 om: "En metode at organisere indholdet på sitet"
 ---
 I dette tema bliver der gjort brug af ["Flexbox Grid"](http://flexboxgrid.com).

@@ -1,7 +1,7 @@
 ---
 title: "Navigationsmenu"
 date: 2018-02-09T10:18:28+01:00
-draft: true
+draft: false
 om: "Menu der bliver brugt til at navigere på sitet"
 ---
 Dette tema gør brug af to forskellige navigationsmenuer. En burgermenu, der folder sig ud fra siden, på mindre og håndholdte enheder, samt en større der fungerer på laptop og desktop.

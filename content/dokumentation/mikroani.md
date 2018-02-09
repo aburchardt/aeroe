@@ -1,7 +1,7 @@
 ---
 title: "Mikroanimation"
 date: 2018-02-05T09:07:53+01:00
-draft: true
+draft: false
 om: "Eksempel på mikroanimation"
 ---
 På denne side ses et eksempel på en pre-loader, som bliver brugt på forsiden. I dette eksempel, er baggrunden fjernet, samt forsvinder pre-loaderen ikke efter nogen timer. Dette kan dog ændres vha. JavasScript.

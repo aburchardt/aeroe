@@ -1,7 +1,7 @@
 ---
 title: "Browser Reset"
 date: 2018-02-01T10:49:47+01:00
-draft: true
+draft: false
 om: "Nulstilling af browserens standard CSS-regler"
 ---
 Et browser reset, er at man kalder på en CSS-fil, som nulstiller browserens standard CSS-regler.

@@ -1,7 +1,7 @@
 ---
 title: "Typografi"
 date: 2018-02-05T09:07:14+01:00
-draft: true
+draft: false
 om: "Hvilken typografi der er brugt, og hvordan den er anvendt"
 ---
 <div class="typografi">

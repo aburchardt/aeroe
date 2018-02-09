@@ -1,7 +1,7 @@
 ---
 title: "Performance Optimize"
 date: 2018-02-05T09:08:29+01:00
-draft: true
+draft: false
 om: "Guide til at performance optimere dit site"
 ---
 For at dit site loades hurtigst muligt, er det vigtigt at din side bl.a. ikke har billeder der fylder for meget.
