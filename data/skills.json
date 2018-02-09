@@ -2,36 +2,50 @@
   {
     "id":"html",
     "navn":"HTML:",
-    "skill":5
+    "skill":5,
+    "test1":"test1",
+    "test2":"test2"
   },
   {
     "id":"css",
     "navn":"CSS:",
-    "skill":5
+    "skill":5,
+    "test1":"test1",
+    "test2":"test2"
   },
   {
     "id":"js",
     "navn":"JavaScript:",
-    "skill":4
+    "skill":4,
+    "test1":"test1",
+    "test2":"test2"
   },
   {
     "id":"ps",
     "navn":"Photoshop:",
-    "skill":3
+    "skill":3,
+    "test1":"test1",
+    "test2":"test2"
   },
   {
     "id":"illu",
     "navn":"Illustrator:",
-    "skill":3
+    "skill":3,
+    "test1":"test1",
+    "test2":"test2"
   },
   {
     "id":"id",
     "navn":"InDesign:",
-    "skill":3
+    "skill":3,
+    "test1":"test1",
+    "test2":"test2"
   },
   {
     "id":"pp",
     "navn":"Premiere Pro:",
-    "skill":4
+    "skill":4,
+    "test1":"test1",
+    "test2":"test2"
   }
 ]

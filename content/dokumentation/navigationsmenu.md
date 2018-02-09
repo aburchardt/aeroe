@@ -21,3 +21,5 @@ Under "name" skriver du navnet du vil have i menuen.
 Under "weight" vælger du rækkefølgen, jo lavere tal, jo længere nede i rækkefølgen er punktet.
 
 Under "url" skriver du navnet på den side der skal refereres til. Har du fx en mappe med navnet "dokumentation", skal der stå "/dokumentation/" for at referere til den side.
+
+Eksempel kan også ses på siden, i venstre øvre hjørne på mindre skærme (burgermenu), eller navigationsbaren på størreskærme.

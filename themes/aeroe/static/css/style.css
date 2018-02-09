@@ -230,11 +230,18 @@ p {
 .list_title a:hover {
   color: #FF4CFF; }
 
+.list_om h4 {
+  color: white; }
+
+.list_date i {
+  color: black; }
+
 /* DOKUMENTATION SLUT */
 /* DOKUMENTATION TYPOGRAFI */
 .typografi h1, h2, h3, h4, p, i {
   padding: 0px;
-  margin: 10px 0 10px 0; }
+  margin: 10px 0 10px 0;
+  color: white; }
 
 .typografi p {
   text-align: center; }
@@ -303,6 +310,24 @@ input[type=eksempel_knap]:hover {
   background-color: #E167FF; }
 
 /* DOKUMENTATION KNAPPER SLUT */
+/* DATAVISUALISERING */
+.kompetencer {
+  position: relative;
+  top: 0px;
+  animation: slideIn 2s forwards; }
+
+.kompetencer h2 {
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white; }
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-900px); }
+  100% {
+    transform: translateY(0); } }
+/* DATAVISUALISERING SLUT */
 /* FOOTER */
 .footer {
   background-color: #BA55D3;
@@ -355,7 +380,8 @@ input[type=eksempel_knap]:hover {
 .burger {
   position: fixed;
   margin-left: 5px;
-  top: 0; }
+  top: 0;
+  color: white; }
 
 .burger:hover {
   color: #FF4CFF; }

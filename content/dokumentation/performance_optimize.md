@@ -2,6 +2,13 @@
 title: "Performance Optimize"
 date: 2018-02-05T09:08:29+01:00
 draft: true
-om: "test"
+om: "Guide til at performance optimere dit site"
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+For at dit site loades hurtigst muligt, er det vigtigt at din side bl.a. ikke har billeder der fylder for meget.
+
+Du kan fx. bruge [TinyJPG](https://tinyjpg.com/) til at komprimere dine billeder, så de fylder så lidt som muligt.
+
+Andre ting der kan spille en rolle, er at have så få fonts som muligt, så den ikke skal loade en masse forskellige. <br>
+I dette tema bliver der fx. kun brugt fire forskellige vægte af én enkelt font.
+
+Et andet eksempel er, at bruge .min.css filer, som fx. er blevet gjort med flexboxgrid i dette tema.
