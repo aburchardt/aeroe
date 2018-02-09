@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Opgave 2</title>
-    <link>https://aburchardt.github.io/aeroe/tags/</link>
+    <link>https://aburchardt.dk/kea/3_semester/aeroe/tags/</link>
     <description>Recent content in Tags on Opgave 2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://aburchardt.github.io/aeroe/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aburchardt.dk/kea/3_semester/aeroe/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
