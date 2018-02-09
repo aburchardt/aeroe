@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Opgave 2"
 theme = "aeroe"
 publishDir = "docs"
+Paginate = 3
 
 [[menu.main]]
 name               	= "Hjem"

@@ -3,7 +3,7 @@ console.log("Godmorgen");
 window.addEventListener("load", sideLoadet);
 
 function sideLoadet() {
-  TweenMax.staggerFrom(".column_and_name_container p", 2, {opacity:"0"},-.4);
+  TweenMax.staggerFrom(".column_and_name_container p", 2, {opacity:"0"},.3);
   TweenMax.staggerFrom(".column_and_name_container svg", 2, {width:"0"},.4);
 }
 
