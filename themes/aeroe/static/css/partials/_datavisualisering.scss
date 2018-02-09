@@ -2,37 +2,33 @@
    width: 100%;
 }
 
-
-.diagram_svg {
-  padding: 10px 0px 10px 0px;
-}
-
 .column_and_name_container {
   margin: auto;
   width: 50%;
   background-color: lightgrey;
 }
 
-.column_and_name_container p {
+.column_and_name_container h4 {
   margin: 0;
   display: inline-block;
   margin-left: 30%;
 }
 
-.column_and_name_container p:first-child {
-  padding-top: 20px;
+.column_and_name_container h4 {
+  padding-top: 10px;
 }
 
 .column_and_name_container svg {
   margin-left: 30%;
+  padding-top: 5px;
 }
 
 .column_and_name_container svg:last-child {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 @media screen and (min-width: 770px) {
-  .column_and_name_container p {
+  .column_and_name_container h4 {
     margin-left: 40%;
   }
   .column_and_name_container svg {
@@ -41,7 +37,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .column_and_name_container p {
+  .column_and_name_container h4 {
     margin-left: 42%;
   }
   .column_and_name_container svg {
