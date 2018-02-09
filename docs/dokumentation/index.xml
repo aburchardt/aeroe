@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dokumentation on Opgave 2</title>
+    <title>Dokumentation on Aeroe Theme</title>
     <link>https://aburchardt.dk/kea/3_semester/aeroe/dokumentation/</link>
-    <description>Recent content in Dokumentation on Opgave 2</description>
+    <description>Recent content in Dokumentation on Aeroe Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>da-dk</language>
     <lastBuildDate>Thu, 01 Feb 2018 10:49:33 +0100</lastBuildDate>
     
 	<atom:link href="https://aburchardt.dk/kea/3_semester/aeroe/dokumentation/index.xml" rel="self" type="application/rss+xml" />

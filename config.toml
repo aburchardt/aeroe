@@ -1,6 +1,6 @@
-baseURL = "https://aburchardt.dk/kea/3_semester/aeroe"
-languageCode = "en-us"
-title = "Opgave 2"
+baseURL = "https://aburchardt.dk/kea/3_semester/aeroe/"
+languageCode = "da-dk"
+title = "Aeroe Theme"
 theme = "aeroe"
 publishDir = "docs"
 Paginate = 3
