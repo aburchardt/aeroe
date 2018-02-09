@@ -98,7 +98,7 @@ input[type=submit]:hover {
   background-color: #AB82FF;
   padding: 20px;
   max-width: 800px;
-  margin: 10px auto; }
+  margin: auto; }
 
 .hidden {
   display: none; }
@@ -125,7 +125,8 @@ input[type=submit]:hover {
 .column_and_name_container h4 {
   margin: 0;
   display: inline-block;
-  margin-left: 30%; }
+  margin-left: 30%;
+  color: white; }
 
 .column_and_name_container h4 {
   padding-top: 10px; }
@@ -277,9 +278,43 @@ p {
   background-color: #FF4CFF; }
 
 /* DOKUMENTATION FARVER SLUT */
+/* DOKUMENTATION FORMULAR */
+.col-md-6 {
+  max-width: inherit; }
+
+.kontakt_h1 h2 {
+  text-align: left; }
+
+.container {
+  text-align: left; }
+
+/* DOKUMENTATION FORMULAR SLUT */
+/* DOKUMENTATION KNAPPER */
+input[type=eksempel_knap] {
+  background-color: #BA55D3;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 125px; }
+
+input[type=eksempel_knap]:hover {
+  background-color: #E167FF; }
+
+/* DOKUMENTATION KNAPPER SLUT */
 /* FOOTER */
-.footer_boks {
-  background-color: lightgrey; }
+.footer {
+  background-color: #BA55D3;
+  padding: 10px; }
+
+.row {
+  margin-right: 0; }
+
+.footer h4 {
+  color: white;
+  padding: 0;
+  margin: 0; }
 
 /* FOOTER SLUT */
 /* BURGER MENU */

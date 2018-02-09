@@ -165,10 +165,54 @@ p {
 
 /* DOKUMENTATION FARVER SLUT */
 
-/* FOOTER */
-.footer_boks {
-  background-color: lightgrey;
+/* DOKUMENTATION FORMULAR */
+.col-md-6 {
+  max-width: inherit;
 }
+
+.kontakt_h1 h2 {
+  text-align: left;
+}
+
+.container {
+  text-align: left;
+}
+
+/* DOKUMENTATION FORMULAR SLUT */
+
+/* DOKUMENTATION KNAPPER */
+input[type=eksempel_knap] {
+  background-color: #BA55D3;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 125px;
+}
+
+input[type=eksempel_knap]:hover {
+  background-color: #E167FF;
+}
+
+/* DOKUMENTATION KNAPPER SLUT */
+
+/* FOOTER */
+.footer {
+  background-color: #BA55D3;
+  padding: 10px;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.footer h4 {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
 
 /* FOOTER SLUT */
 
