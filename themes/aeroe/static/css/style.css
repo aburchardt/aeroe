@@ -122,22 +122,35 @@ input[type=submit]:hover {
 
 .column_and_name_container {
   margin: auto;
-  width: 35vw; }
+  width: 50%;
+  background-color: lightgrey; }
 
 .column_and_name_container p {
   margin: 0;
-  padding: 0;
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 30%; }
+
+.column_and_name_container p:first-child {
+  padding-top: 20px; }
+
+.column_and_name_container svg {
+  margin-left: 30%; }
 
 .column_and_name_container svg:last-child {
   padding-bottom: 20px; }
 
 @media screen and (min-width: 770px) {
-  .column_and_name_container {
-    width: 18vw; } }
+  .column_and_name_container p {
+    margin-left: 40%; }
+
+  .column_and_name_container svg {
+    margin-left: 40%; } }
 @media screen and (min-width: 1200px) {
-  .column_and_name_container {
-    width: 10vw; } }
+  .column_and_name_container p {
+    margin-left: 42%; }
+
+  .column_and_name_container svg {
+    margin-left: 42%; } }
 /* IMPORT PARTIALS SLUT */
 body {
   font-family: "Lato", sans-serif; }
