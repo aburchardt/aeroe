@@ -1,0 +1,439 @@
+/* IMPORT PARTIALS */
+@import "partials/preloader";
+@import "partials/formular";
+@import "partials/datavisualisering";
+/* IMPORT PARTIALS SLUT */
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #E167FF90
+}
+
+/* TYPOGRAFI */
+a {
+  color: black;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+a:hover {
+  color: white;
+}
+
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 11.5vw;
+}
+
+h2 {
+  padding: 15px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+i {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+/* TYPOGRAFI SLUT */
+
+/* SPLASH */
+.splash {
+  background-color: #9370DB;
+  width: 100%;
+  height: 40vw;
+}
+
+.splash h1 {
+  margin-top: 10vw;
+  color: #FF4CFF
+  // font-size: 10vw;
+}
+/* SPLASH SLUT */
+
+/* CONTENT */
+.col-md-6 {
+  background-color: #AB82FF;
+}
+
+.box p {
+  text-align: left;
+  margin: 10px;
+}
+
+.box h2 {
+  margin: 10px;
+}
+
+/* CONTENT SLUT */
+
+/* DOKUMENTATION */
+.list_om, .list_date, .list_title {
+  text-align: left;
+  margin: 10px;
+}
+
+.list_title a {
+  color: white;
+}
+
+.list_title a:hover {
+  color: #FF4CFF;
+}
+
+.list_om h4 {
+  color: white;
+}
+
+.list_date i {
+  color: black;
+}
+
+/* DOKUMENTATION SLUT */
+
+/* DOKUMENTATION TYPOGRAFI */
+.typografi h1, h2, h3, h4, p, i {
+  padding: 0px;
+  margin: 10px 0 10px 0;
+  color: white;
+}
+
+.typografi p {
+  text-align: center;
+}
+
+.typografi_p i {
+  font-size: 18px;
+}
+
+.typografi_p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* DOKUMENTATION TYPOGRAFI SLUT */
+
+/* DOKUMENTATION FARVER */
+.farver {
+  padding: 5px;
+}
+.farve1, .farve2, .farve3, .farve4, .farve5, .farve6 {
+  height: 10%;
+  width: 80%;
+  margin: auto;
+  border: 1px solid white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.farve1 {
+  background-color: #9370DB;
+}
+
+.farve2 {
+  background-color: #AB82FF;
+}
+
+.farve3 {
+  background-color: #BA55D3;
+}
+
+.farve4 {
+  background-color: #E167FF;
+}
+
+.farve5 {
+  background-color: #FF00FF;
+}
+
+.farve6 {
+  background-color: #FF4CFF;
+}
+
+/* DOKUMENTATION FARVER SLUT */
+
+/* DOKUMENTATION FORMULAR */
+.col-md-6 {
+  max-width: inherit;
+}
+
+.kontakt_h1 h2 {
+  text-align: left;
+}
+
+.container {
+  text-align: left;
+}
+
+/* DOKUMENTATION FORMULAR SLUT */
+
+/* DOKUMENTATION KNAPPER */
+input[type=eksempel_knap] {
+  background-color: #BA55D3;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 125px;
+}
+
+input[type=eksempel_knap]:hover {
+  background-color: #E167FF;
+}
+
+/* DOKUMENTATION KNAPPER SLUT */
+
+/* DOKUMENTATION DESIGN PATTERN */
+.btn {
+  background-color: #E167FF;
+  border: 1px solid white;
+  //border-radius: 1rem;
+  color: white;
+  padding: 0.5rem;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 56rem) {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: #9370DB;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  &:hover {
+    .card__image {
+      filter: contrast(100%);
+    }
+  }
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  filter: contrast(70%);
+  //filter: saturate(180%);
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+  &::before {
+    content: "";
+	  display: block;
+    padding-top: 56.25%; // 16:9 aspect ratio
+  }
+  @media(min-width: 40rem) {
+    &::before {
+      padding-top: 66.6%; // 3:2 aspect ratio
+    }
+  }
+}
+
+.card__image--fence {
+  background-image: url(/img/guldglenn.jpg);
+}
+
+.card__title {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+/* DOKUMENTATION DESIGN PATTERN SLUT */
+
+/* DATAVISUALISERING */
+.kompetencer {
+  position: relative;
+  top: 0px;
+  animation: slideIn 2s forwards;
+}
+
+.kompetencer h2 {
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-900px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* DATAVISUALISERING SLUT */
+
+/* FOOTER */
+.footer {
+  background-color: #BA55D3;
+  padding: 10px;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.footer h4 {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* FOOTER SLUT */
+
+/* BURGER MENU */
+
+.sidenav {
+    height: 23%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -170px;;
+    background-color: #BA55D3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    // padding-top: 60px;
+    border-radius: 0 0px 10px 0;
+}
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 4vw;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.sidenavn a:first-child {
+  padding-top: 20px;
+}
+
+.sidenav a:hover {
+    color: #FF4CFF;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -12px;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.burger {
+  position: fixed;
+  margin-left: 5px;
+  top: 0;
+  color: white;
+}
+
+.burger:hover {
+  color: #FF4CFF;
+}
+
+/* BURGER MENU SLUT */
+
+/* MENU */
+.menu {
+  display: none;
+  background-color: #BA55D3;
+  // width: 100%;
+  padding: 10px;
+}
+
+.menu a {
+  padding-left: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  color: #FF4CFF;
+}
+
+/* MENU SLUT */
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media  screen and (min-width: 500px) {
+  .menu {
+    display: block;
+  }
+  .burgermenu {
+    display: none;
+  }
+}

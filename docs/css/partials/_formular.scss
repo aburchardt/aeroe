@@ -1,0 +1,51 @@
+/*Formular*/
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+textarea {
+  height: 200px; }
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #45a049; }
+
+.container {
+  border-radius: 5px;
+  background-color: #AB82FF;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto; }
+
+.hidden {
+  display: none; }
+
+#formfailure {
+  background-color: red;
+  padding: 1em; }
+
+.kontakt_p {
+  margin-left: 20px;
+}
+
+.kontakt_h1 {
+  margin-left: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */

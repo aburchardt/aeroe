@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AEROE on Opgave 2</title>
+    <link>https://aburchardt.github.io/aeroe/</link>
+    <description>Recent content in AEROE on Opgave 2</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2018 10:49:18 +0100</lastBuildDate>
+    
+	<atom:link href="https://aburchardt.github.io/aeroe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
