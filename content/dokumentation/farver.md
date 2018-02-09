@@ -2,6 +2,25 @@
 title: "Farver"
 date: 2018-02-01T10:49:58+01:00
 draft: true
-om:
+om: "Vindens farver"
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="farver">
+  <div class="farve1">
+    <p>#9370DB</p>
+  </div>
+  <div class="farve2">
+    <p>#AB82FF</p>
+  </div>
+  <div class="farve3">
+    <p>#BA55D3</p>
+  </div>
+  <div class="farve4">
+    <p>#E167FF</p>
+  </div>
+  <div class="farve5">
+    <p>#FF00FF</p>
+  </div>
+  <div class="farve6">
+    <p>#FF4CFF</p>
+  </div>
+</div>
